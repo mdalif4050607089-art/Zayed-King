@@ -106,5 +106,5 @@ async def token_submit_handler(client: Client, message: Message):
         )
 
 
-if name == "main":
+if __name__ == "__main__":
     app.run()
